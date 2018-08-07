@@ -104,11 +104,13 @@ def draw?
  end
 
  def winner
-  if won? = "X"
-    return "X"
+  if won?
+    array = won?
+    winner = @board[array[0]]
+    return winner
   else
-    return "O"
+    return nil
   end
-end  
+end
 
  end
