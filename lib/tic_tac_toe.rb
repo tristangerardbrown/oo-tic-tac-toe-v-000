@@ -94,7 +94,7 @@ def draw?
     return true
   elsif won?
     return false
-  else !won? && !full
+  else !won? && !full?
     return false
  end
  end
