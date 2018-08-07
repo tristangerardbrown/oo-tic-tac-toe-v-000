@@ -120,7 +120,7 @@ def play
   if won?
     "Congratulations #{winner}!"
   else draw?
-    "Cat's Game!"
+    puts "Cat's Game!"
  end
 end
 end
