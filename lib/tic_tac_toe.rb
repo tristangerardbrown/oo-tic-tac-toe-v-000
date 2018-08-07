@@ -118,9 +118,9 @@ def play
     turn
   end
   if won?
-    "Congratulations!"
+    "Congratulations ${winner}!"
   else draw?
     "It was a draw"
  end
 end
-end 
+end
