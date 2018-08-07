@@ -113,4 +113,14 @@ def draw?
   end
 end
 
+def play
+  until over?
+    turn
+  end
+  if won?
+    "Congratulations!"
+  else draw?
+    "It was a draw"
  end
+end
+end 
