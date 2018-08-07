@@ -103,6 +103,3 @@ def draw?
    won? || draw?
  end
  end
-
-
- end
